@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Respect The Meta Directory.
+Please!
 
-You can use the [editor on GitHub](https://github.com/KevinMGranger/respect-the-meta-directory/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Work in progress, more content coming soon.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The idea behing this movement is to combat the overwhelming amount of top-level project configuration files.
 
-### Markdown
+Although having these standardized tools supported in projects is a good thing, it leaves the project looking cluttered, especially when viewing it for the first time on something like GitHub or GitLab.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This proposal asks that these tools also check a top-level `meta` directory, which can hold these files as well.
 
-```markdown
-Syntax highlighted code block
+There would be a single exception of a top-level `metameta`, which would contain the name of a single "fallback" folder to use instead for cases where tools or standards dictate that there would be a top-level directory named `meta` for other purposes. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KevinMGranger/respect-the-meta-directory/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For example, python packages typically have a top-level directory with the same name as the package, so a python package called `meta` would need a fallback to something else. This top-level fallback could have a sensible default, perhaps making `metameta` unnecessary.
