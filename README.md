@@ -13,4 +13,6 @@ There would be a single exception of a top-level `metameta`, which would contain
 
 For example, python packages typically have a top-level directory with the same name as the package, so a python package called `meta` would need a fallback to something else. This top-level fallback could have a sensible default, perhaps making `metameta` unnecessary.
 
+If you'd like to contribute towards this writeup / standard / list of tools that should support it, do so [here](https://github.com/KevinMGranger/respect-the-meta-directory)
+
 <a href="https://github.com/KevinMGranger/respect-the-meta-directory"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6625ac1f3ee0a12250227cf83ce904423abf351/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png"></a>
