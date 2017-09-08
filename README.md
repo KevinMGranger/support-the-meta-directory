@@ -1,3 +1,7 @@
+---
+sidebar: <p>This is a test of the sidebar.</p>
+---
+
 # Let's unclutter everyone's repos: support the Meta Directory!
 
 There seems to be a trend of projects having a high amount of configuration
@@ -260,7 +264,9 @@ vagrant | Vagrantfile        | TBP    |
 
 ## Projects that would benefit from this
 
-**This is not a wall of shame.** As said above, if a project is listed here,
+**This is not a wall of shame.**
+
+As said above, if a project is listed here,
 that means it has gone above and beyond supporting the vibrant ecosystem of
 developer tooling, and making it easier for people to use and devleop on their
 project. This is simple to illustrate why this standard is necessary, and also
