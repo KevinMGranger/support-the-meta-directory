@@ -24,6 +24,25 @@ For example, python packages typically have a top-level directory with the same
 name as the package, so a python package called `meta` would need a fallback to
 something else.
 
+<!-- TOC -->
+
+- [Unclutter everyone's repos: respect the Meta Directory, please!](#unclutter-everyones-repos-respect-the-meta-directory-please)
+    - [The Meta Directory Standard](#the-meta-directory-standard)
+    - [The Meta Directory Standard tl;dr version](#the-meta-directory-standard-tldr-version)
+    - [History / Prior Art / Inspirations](#history--prior-art--inspirations)
+        - [Dotfiles: the bug that became a feature](#dotfiles-the-bug-that-became-a-feature)
+        - [The XDG .config directory](#the-xdg-config-directory)
+    - [Counter-arguments](#counter-arguments)
+    - [Contributing](#contributing)
+    - [Tools That Should Implement This](#tools-that-should-implement-this)
+        - [CI](#ci)
+        - [Language-Specific](#language-specific)
+        - [Editing / Text Tools](#editing--text-tools)
+        - [Other General Dev Tools](#other-general-dev-tools)
+    - [Projects that would benefit from this](#projects-that-would-benefit-from-this)
+
+<!-- /TOC -->
+
 
 ## The Meta Directory Standard
 
