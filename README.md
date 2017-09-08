@@ -1,4 +1,4 @@
-# Unclutter everyone's repos: respect the Meta Directory, please!
+# Let's unclutter everyone's repos: support the Meta Directory!
 
 There seems to be a trend of projects having a high amount of configuration
 files living in the top of the repo.
@@ -26,7 +26,7 @@ something else.
 
 <!-- TOC -->
 
-- [Unclutter everyone's repos: respect the Meta Directory, please!](#unclutter-everyones-repos-respect-the-meta-directory-please)
+- [Let's unclutter everyone's repos: support the Meta Directory!](#lets-unclutter-everyones-repos-support-the-meta-directory)
     - [The Meta Directory Standard](#the-meta-directory-standard)
     - [The Meta Directory Standard tl;dr version](#the-meta-directory-standard-tldr-version)
     - [History / Prior Art / Inspirations](#history--prior-art--inspirations)
@@ -135,7 +135,9 @@ For fairness's sake, let's collect the common counter-arguments to this proposal
    language the project uses.** While this is true, GitHub offers an excellent
    summary of what langauges are used at the top of the repo, and any project
    that has both a frontend and backend component in the same repo makes this
-   harder to immediately identify anyway. But as a compromise, perhaps the 
+   harder to immediately identify anyway. But as a compromise, perhaps the
+   essential lang-specific files (e.g. Cargo.toml, package.json, setup.py) could
+   or should stay at the top level.
    
    
 ## Contributing
@@ -148,7 +150,7 @@ that project overall, why not stay, eh?
 
 If you'd like to contribute towards this writeup / standard / list of tools that i
 should support it, do so
-[here](https://github.com/KevinMGranger/respect-the-meta-directory).
+[here](https://github.com/KevinMGranger/support-the-meta-directory).
 
 You can suggest changes to the above writeup, or add entries to the lists of
 tools that should implement this, or list of projects that would benefit from
