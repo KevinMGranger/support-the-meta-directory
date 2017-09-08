@@ -34,9 +34,7 @@
           </ul>
         {% endif %}
 
-        {% if page.sidebar %}
-        {{ page.sidebar | markdownify }}
-        {% endif %}
+        {{ page.contents | markdownify }}
       </header>
       <section>
 

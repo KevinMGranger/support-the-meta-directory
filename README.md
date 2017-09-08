@@ -1,5 +1,5 @@
 ---
-sidebar: |
+contents:
     - [Let's unclutter everyone's repos: support the Meta Directory!](#lets-unclutter-everyones-repos-support-the-meta-directory)
         - [The Meta Directory Standard](#the-meta-directory-standard)
         - [The Meta Directory Standard tl;dr version](#the-meta-directory-standard-tldr-version)
